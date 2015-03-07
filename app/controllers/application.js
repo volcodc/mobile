@@ -1,7 +1,5 @@
 import Ember from 'ember';
 
-
-
 export default Ember.Controller.extend({
 	firstObject: function(){
 		var model = this.get('model');

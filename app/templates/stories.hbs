@@ -1,0 +1,13 @@
+<h1>Stories</h1>
+
+{{#if hasWinterAlert}}
+  <h2>HOLY SHIT IT IS COLD!</h2>
+{{/if}}
+
+{{controller}}
+
+<ul class="stories">
+  {{#each story in model}}
+    <li>{{story.headline}}</li>
+  {{/each}}
+</ul>

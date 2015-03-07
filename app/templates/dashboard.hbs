@@ -1,0 +1,29 @@
+<h1>Stories</h1>
+{{controller}}
+<ul class="stories">
+  {{#each story in firstThree}}
+    <li>{{story.headline}}</li>
+  {{/each}}
+</ul>
+
+<ul class="stories">
+  {{#each story in firstFour}}
+    <li>{{story.headline}}</li>
+  {{/each}}
+</ul>
+
+<ul class="stories">
+  {{#each story in poopStories}}
+    <li>{{story.headline}}</li>
+  {{/each}}
+</ul>
+
+<ul class="stories">
+  {{#each story in controller itemController="story"}}
+    <li>{{story.combinedAttributes}}</li>
+  {{/each}}
+</ul>
+
+<h2>Weather</h2>
+<p>TODO: implement</p>
+{{outlet}}
