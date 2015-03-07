@@ -1,0 +1,18 @@
+@import "settings";
+
+@import "foundation";
+
+.fixed .top-bar{background:#000;height:48px;}
+.fixed .top-bar .toggle-topbar.menu-icon {
+	position:relative;
+	margin-top:8px;
+	right:auto;
+	float:left;
+}
+.fixed .top-bar .toggle-topbar.menu-icon a{
+	padding:0 2.5rem 0 0.2375rem;
+}
+body{
+	padding:48px 0 0;
+}
+.fixed .top-bar .logo{margin:0 auto;width:197px;}
